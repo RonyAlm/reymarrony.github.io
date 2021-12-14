@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Reymar - Login</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <div class="top-nav promotion-box">
+        <div class="container d-flex">
+            <!-- <p>Haga su pedido en línea o llámenos: (+54) 9 3704832292</p> -->
+            <a href="#">
+                <span>Oferta de verano, 50% de descuento! Comprar</span>
+            </a>
+            <div class="close-promobox">
+                <i class="fal fal_r fa-times"></i>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(".close-promobox").click(function() {
+            $(".promotion-box").toggle();
+        });
+    </script>
+    <div class="navigation">
+        <div class="nav-center container d-flex">
+
+
+            <ul class="nav-list d-flex">
+                <li class="nav-item">
+
+                    <a href="index.html" class="nav-link">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="producto-ropa.html" class="nav-link">ROPA</a>
+                    <!-- <input type="checkbox" id="showMega" style="visibility: hidden; position: absolute;" />
+
+                  <label for="showMega" class="mobile-item">Tienda <span><i class="fas fa-chevron-down"></i></span></label>
+                  <div class="mega-box">
+                      <div class="content">
+                          <div class="row">
+                              <img src="./images/banner.png" alt="" />
+                          </div>
+                          <div class="row">
+                              <header>Shop Layout</header>
+                              <ul class="mega-links">
+                                  <li><a href="#">Shop With Background</a></li>
+                                  <li><a href="#">Shop Mini Categories</a></li>
+                                  <li><a href="#">Shop Only Categories</a></li>
+                                  <li><a href="#">Shop Icon Categories</a></li>
+                              </ul>
+                          </div>
+                          <div class="row">
+                              <header>Filter Layout</header>
+                              <ul class="mega-links">
+                                  <li><a href="#">Sidebar</a></li>
+                                  <li><a href="#">Filter Default</a></li>
+                                  <li><a href="#">Filter Drawer</a></li>
+                                  <li><a href="#">Filter Dropdown</a></li>
+                              </ul>
+                          </div>
+                          <div class="row">
+                              <header>Product Layout</header>
+                              <ul class="mega-links">
+                                  <li><a href="#">Layout Zoom</a></li>
+                                  <li><a href="#">Layout Sticky</a></li>
+                                  <li><a href="#">Layout Sticky 2</a></li>
+                                  <li><a href="#">Layout Scroll</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div> -->
+                </li>
+                <!-- <li class="nav-item nav-item-icono">
+                  <i class="large material-icons">expand_more</i>
+              </li> -->
+                <li class="nav-item">
+                    <a href="producto-calzado.html" class="nav-link">ZAPATOS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="producto-vestido.html" class="nav-link">VESTIDO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="producto-accesorios.html" class="nav-link">ACCESORIOS</a>
+                </li>
+                <li class="icons d-flex">
+                    <a href="login.html" class="icon">
+                        <i class="bx bx-user"></i>
+                    </a>
+                    <div class="icon">
+                        <i class="bx bx-search"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="bx bx-heart"></i>
+                        <span class="d-flex">0</span>
+                    </div>
+                    <a href="cart.html" class="icon card_r">
+                        <i class="far fa-shopping-bag"></i>
+                        <span class="d-flex">0</span>
+                    </a>
+                </li>
+            </ul>
+
+            <a href="index.html" class="logo">
+                <img src="./images/REYMAR_LOGO.png" alt="" srcset="">
+            </a>
+
+            <div class="icons d-flex">
+                <div class="icon">
+                    <i class="bx bx-search"></i>
+                </div>
+                <a href="login.html" class="icon">
+                    <i class="bx bx-user"></i>
+                </a>
+                <div class="icon">
+                    <i class="bx bx-heart"></i>
+                    <span class="d-flex">0</span>
+                </div>
+                <a href="cart.html" class="icon card_r">
+                    <i class="far fa-shopping-bag"></i>
+                    <span class="d-flex">0</span>
+                </a>
+            </div>
+
+            <div class="hamburger">
+                <i class="bx bx-menu-alt-left"></i>
+            </div>
+        </div>
+    </div>
+    <!-- Login -->
+    <div class="container">
+        <div class="login-form">
+            <form action="">
+                <h1>Registrate</h1>
+                <p>
+                    Por favor complete este formulario para crear una cuenta. o
+                    <a href="login.html">Iniciar sesión</a>
+                </p>
+
+                <label for="email">Correo</label>
+                <input type="text" placeholder="Ingrese su correo" name="email" required />
+
+                <label for="psw">Contraseña</label>
+                <input type="password" placeholder="Ingrese su contraseña" name="psw" required />
+
+                <label for="psw-repeat">Repetir Contraseña</label>
+                <input type="password" placeholder="Repetir contraseña" name="psw-repeat" required />
+
+                <label>
+            <input
+              type="checkbox"
+              checked="checked"
+              name="remember"
+              style="margin-bottom: 15px"
+            />
+            Recordame
+          </label>
+
+                <p>
+                    Al crear una cuenta, acepta nuestras
+                    <a href="#">Términos y privacidad</a>.
+                </p>
+
+                <div class="buttons">
+                    <button type="button" class="cancelbtn">Cancelar</button>
+                    <button type="submit" class="signupbtn">Registrate</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <section class="section contact ">
+        <div class="promociones_r">
+            <div>
+                <i class="fas fa-truck"></i>
+                <a>ENVIOS GRATIS EN COMPRAS MAS $6000</a>
+            </div>
+            <div>
+                <i class="far fa-credit-card"></i>
+                <a>6 CUOTAS SIN INTERES CON TODO PAGO</a>
+            </div>
+            <div>
+                <i class="far fa-handshake"></i>
+                <a>10% OFF TRANSF BANCARIA </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="row">
+            <div class="col d-flex">
+                <h4>INFORMACION</h4>
+                <a href="">Sobre Nosotros</a>
+                <a href="">Tabla de Talles</a>
+                <a href="">Contactanos!</a>
+                <a href="">Términos y Condiciones</a>
+            </div>
+            <div class="col d-flex">
+                <h4>MI CUENTA</h4>
+                <a href="">Registrarse</a>
+                <a href="">Ver carrito</a>
+                <a href="">Promocion</a>
+                <a href="">Preguntas Frecuentes</a>
+            </div>
+            <div class="col d-flex">
+                <h4>CONTACTO</h4>
+                <a href="https://www.instagram.com/_reymaar/" target="_blank">
+                    <i class="fab fa-instagram" style="margin-right: 13px;"></i> @_reymaar
+                </a>
+                <a href="">
+                    <i class="fab fa-whatsapp" style="margin-right: 13px;"></i> 3704675432
+                </a>
+                <!-- <a href="">Ver carrito</a>
+            <a href="">Promocion</a>
+            <a href="">Preguntas Frecuentes</a> -->
+            </div>
+            <!-- <div class="col d-flex">
+            <span><i class='bx bxl-facebook-square'></i></span>
+            <span><i class='bx bxl-instagram-alt'></i></span>
+            <span><i class='bx bxl-github'></i></span>
+            <span><i class='bx bxl-twitter'></i></span>
+            <span><i class='bx bxl-pinterest'></i></span>
+        </div> -->
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

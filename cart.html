@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS StyleSheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="shortcut icon" href="images/LOGO-2-5.png" type="image/x-icon">
+    <title>Carrito - Reymar</title>
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="navigation">
+        <nav class="nav-sombra-r nav-center container d-flex">
+            <ul class="nav-list d-flex">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="producto-ropa.html" class="nav-link">ROPA</a>
+                </li>
+                <li class="nav-item">
+                    <a href="producto-calzado.html" class="nav-link">ZAPATOS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="producto-vestido.html" class="nav-link">VESTIDO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="producto-accesorios.html" class="nav-link">ACCESORIOS</a>
+                </li>
+                <li class="icons d-flex">
+                    <a href="login.html" class="icon  ">
+                        <i class="bx bx-user activado"></i>
+                    </a>
+                    <div class="icon">
+                        <i class="bx bx-search"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="bx bx-heart"></i>
+                        <span class="d-flex">0</span>
+                    </div>
+                    <a href="cart.html" class="icon card_r">
+                        <i class="far fa-shopping-bag"></i>
+                        <span class="d-flex">0</span>
+                    </a>
+                </li>
+            </ul>
+
+            <a href="index.html" class="logo">
+                <img src="./images/REYMAR_LOGO.png" alt="" srcset="">
+            </a>
+
+            <div class="icons d-flex">
+                <div class="icon">
+                    <i class="bx bx-search"></i>
+                </div>
+                <a href="login.html" class="icon">
+                    <i class="bx bx-user"></i>
+                </a>
+                <div class="icon">
+                    <i class="bx bx-heart"></i>
+                    <span class="d-flex">0</span>
+                </div>
+                <a href="cart.html" class="icon card_r">
+                    <i class="far fa-shopping-bag"></i>
+                    <span class="d-flex">0</span>
+                </a>
+            </div>
+
+            <div class="hamburger">
+                <i class="bx bx-menu-alt-left"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Items Carrito-->
+    <div class="container cart">
+        <table>
+            <tr>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="./images/zapato.jpg" alt="" />
+                        <div>
+                            <p>Rumy (cuero) Negro / Camel</p>
+                            <span>Precio: $2000</span> <br />
+                            <a href="#">Eliminar</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1" min="1" /></td>
+                <td>$2000</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="./images/ropas/pant-lino-1.jpeg" alt="" />
+                        <div>
+                            <p>Pantalon de lino "Positano"</p>
+                            <span>Precio: $5690</span> <br />
+                            <a href="#">Eliminar</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1" min="1" /></td>
+                <td>$5690</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="./images/ACCESORIOS/cinto-yute-1150.jpeg" alt="" />
+                        <div>
+                            <p>Cinto Yute</p>
+                            <span>Precio: $1150</span> <br />
+                            <a href="#">Eliminar</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1" min="1" /></td>
+                <td>$1150</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="./images/ropas/BLUSA-SOLE-2300.jpeg" alt="" />
+                        <div>
+                            <p>BLUSA SOLE</p>
+                            <span>Precio: $2300</span> <br />
+                            <a href="#">Eliminar</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1" min="1" /></td>
+                <td>$2300</td>
+            </tr>
+            <!-- <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="./images/product-6.jpg" alt="" />
+                        <div>
+                            <p>Boy’s T-Shirt</p>
+                            <span>Price: $60.00</span> <br />
+                            <a href="#">remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1" min="1" /></td>
+                <td>$60.00</td>
+            </tr> -->
+        </table>
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$11000</td>
+                </tr>
+                <tr>
+                    <td>Envío</td>
+                    <td>$200</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$11300</td>
+                </tr>
+            </table>
+            <a href="#" class="checkout btn">Proceder con la compra</a>
+        </div>
+    </div>
+
+    <!-- Ultimos producto -->
+    <section class="section featured">
+        <div class="top container">
+            <h1>Ultimos productos</h1>
+            <a href="todo-producto.html" class="view-more">Ver más</a>
+        </div>
+        <div class="product-center container">
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/ropas/CARDINAN-NEW-YORK-4000.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>CARDINAN NEW YORK</span>
+                    <a href="">Cardigan de media estación</a>
+                    <h4>$4000</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/VESTIDOS/akumalarena-1.jpeg" alt="" />
+                    </a>
+                    <span class="discount">50%</span>
+                </div>
+                <div class="product-info">
+                    <span>Vestido "Akumal" Arena</span>
+                    <a href="">Vestido de lino</a>
+                    <h4>$2500</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/zapato6.jpg" alt="" />
+                    </a>
+                    <span class="discount">20%</span>
+                </div>
+                <div class="product-info">
+                    <span>Muyil</span>
+                    <a href="">Muyil (cuero) Camel / Negro</a>
+                    <h4>$2300</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/zapato4.jpg" alt="" />
+                    </a>
+                    <span class="discount">50%</span>
+                </div>
+                <div class="product-info">
+                    <span> Zapato Rania</span>
+                    <a href="">Rania (cuero) Camel / Negro / Nude</a>
+                    <h4>$3000</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="section contact ">
+        <div class="promociones_r">
+            <div>
+                <i class="fas fa-truck"></i>
+                <a>ENVIOS GRATIS EN COMPRAS MAS $6000</a>
+            </div>
+            <div>
+                <i class="far fa-credit-card"></i>
+                <a>6 CUOTAS SIN INTERES CON TODO PAGO</a>
+            </div>
+            <div>
+                <i class="far fa-handshake"></i>
+                <a>10% OFF TRANSF BANCARIA </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="row">
+            <a class="col d-flex" href="faq.html">AYUDA</a>
+            <a class="col d-flex" href="faq.html">TABLA DE TALLES</a>
+            <a class="col d-flex" href="faq.html">ENVÍOS</a>
+            <a class="col d-flex" href="faq.html">CAMBIOS Y DOVOLUCIONES</a>
+            <a class="col d-flex" href="contacto.html">CONTACTO</a>
+            <a class="col d-flex" href="faq.html">TÉRMINOS Y CONDICIONES</a>
+
+            <div class="redes-sociales">
+                <a href="https://www.instagram.com/_reymaar/" target="_blank">
+                    <i class="fab fa-instagram" style="margin-left: 13px; font-size: 2.5rem;"></i>
+                </a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-facebook-square" style="margin-left: 13px; font-size: 2.5rem;"></i>
+                </a>
+                <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp" style="margin-left: 13px; font-size: 2.5rem;"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

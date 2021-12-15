@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS StyleSheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="shortcut icon" href="images/LOGO-2-5.png" type="image/x-icon">
+    <title>Contacto - Reymar</title>
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="navigation">
+        <nav class="nav-sombra-r nav-center container d-flex">
+            <ul class="nav-list d-flex">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="producto-ropa.html" class="nav-link">ROPA</a>
+                </li>
+                <li class="nav-item">
+                    <a href="producto-calzado.html" class="nav-link">ZAPATOS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="producto-vestido.html" class="nav-link">VESTIDO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="producto-accesorios.html" class="nav-link">ACCESORIOS</a>
+                </li>
+                <li class="icons d-flex">
+                    <a href="login.html" class="icon  ">
+                        <i class="bx bx-user activado"></i>
+                    </a>
+                    <div class="icon">
+                        <i class="bx bx-search"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="bx bx-heart"></i>
+                        <span class="d-flex">0</span>
+                    </div>
+                    <a href="cart.html" class="icon card_r">
+                        <i class="far fa-shopping-bag"></i>
+                        <span class="d-flex">0</span>
+                    </a>
+                </li>
+            </ul>
+
+            <a href="index.html" class="logo">
+                <img src="./images/REYMAR_LOGO.png" alt="" srcset="">
+            </a>
+
+            <div class="icons d-flex">
+                <div class="icon">
+                    <i class="bx bx-search"></i>
+                </div>
+                <a href="login.html" class="icon">
+                    <i class="bx bx-user"></i>
+                </a>
+                <div class="icon">
+                    <i class="bx bx-heart"></i>
+                    <span class="d-flex">0</span>
+                </div>
+                <a href="cart.html" class="icon card_r">
+                    <i class="far fa-shopping-bag"></i>
+                    <span class="d-flex">0</span>
+                </a>
+            </div>
+
+            <div class="hamburger">
+                <i class="bx bx-menu-alt-left"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contacto -->
+    <div class="container">
+        <div class="acordion-contacto">
+            <!-- Acordion contacto  -->
+            <h2>Contacto</h2>
+            <p> Nuestro horario de atención es de lunes a sábados de 10 a 18 hs (hora Argentina)</p>
+
+
+            <div class="accordion-wrap">
+                <div class="accordion-item">
+                    <p class="accordion-header"> <i class="fal fa-envelope"></i> Por correo
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </p>
+                </div>
+                <div class="accordion-text">
+                    <form id="form-contacto" class="form-contacto">
+                        <label for="motivo">MOTIVO:</label>
+                        <select class="col-contacto" name="" id="select-motivo">
+                                <option value="">--Ninguno--</option>
+                                <option value="Consulta Stock">Consulta Stock</option>
+                                <option value="Reclamo de calidad">Reclamo de calidad</option>
+                                <option value="Envío de pedido">Envío de pedido</option>
+                                <option value="Cambios o devoluciones">Cambios o devoluciones</option>
+                                <option value="Otra información">Otra información</option>
+                                <option value="RR.HH">RR.HH<div></div><div></div></option>
+                        </select>
+
+                        <label for="nombre">NOMBRE DEL CONTACTO</label>
+                        <input class="col-contacto" type="text" name="nombre" required />
+
+                        <label for="email">CORREO ELECTRÓNICO</label>
+                        <input class="col-contacto" type="email" name="email" required />
+
+                        <label for="email">CONFIRMAR CORREO ELECTRÓNICO</label>
+                        <input class="col-contacto" type="email" name="email" required />
+
+                        <label for="telefono">TELÉFONO</label>
+                        <input class="col-contacto" type="text" name="telefono" required />
+
+                        <label for="nro-pedido">NÚMERO DE PEDIDO</label>
+                        <input class="col-contacto" type="text" name="nro-pedido" required />
+
+                        <label for="descripcion">DESCRIPCIÓN</label>
+                        <textarea class="col-contacto" id=" " cols="30 " rows="20" required></textarea>
+                        <div class="buttons">
+                            <button type="submit " class="col-contacto">ENVIAR CONSULTA</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="accordion-wrap">
+                <div class="accordion-item">
+                    <p class="accordion-header">
+                        <i class="fab fa-whatsapp "></i> Escribirnos por WhatsApp
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </p>
+                </div>
+                <div class="accordion-text">
+                    <p> Por Whatsapp de lunes a sábados de 10 a 18 hs | 3704832387 </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <section class="section contact ">
+        <div class="promociones_r">
+            <div>
+                <i class="fas fa-truck"></i>
+                <a>ENVIOS GRATIS EN COMPRAS MAS $6000</a>
+            </div>
+            <div>
+                <i class="far fa-credit-card"></i>
+                <a>6 CUOTAS SIN INTERES CON TODO PAGO</a>
+            </div>
+            <div>
+                <i class="far fa-handshake"></i>
+                <a>10% OFF TRANSF BANCARIA </a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="row">
+            <a class="col d-flex" href="faq.html">AYUDA</a>
+            <a class="col d-flex" href="faq.html">TABLA DE TALLES</a>
+            <a class="col d-flex" href="faq.html">ENVÍOS</a>
+            <a class="col d-flex" href="faq.html">CAMBIOS Y DOVOLUCIONES</a>
+            <a class="col d-flex" href="contacto.html">CONTACTO</a>
+            <a class="col d-flex" href="faq.html">TÉRMINOS Y CONDICIONES</a>
+
+            <div class="redes-sociales">
+                <a href="https://www.instagram.com/_reymaar/" target="_blank">
+                    <i class="fab fa-instagram" style="margin-left: 13px; font-size: 2.5rem;"></i>
+                </a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-facebook-square" style="margin-left: 13px; font-size: 2.5rem;"></i>
+                </a>
+                <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp" style="margin-left: 13px; font-size: 2.5rem;"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="./js/index.js "></script>
+    <script>
+        /* acordion */
+        $(".accordion-wrap").on("dblclick", function() {
+            $(this).children().eq(1).slideToggle(300);
+            $(this).children().eq(0).toggleClass("accordion-no-bar");
+            $(this).siblings().find(".accordion-header").removeClass("accordion-gold");
+            $(this).siblings().find(".accordion-header i").removeClass("rotate-fa");
+            $(this).find(".accordion-header").toggleClass("accordion-gold");
+            $(this).find(".fa").toggleClass("rotate-fa");
+
+            $(".accordion-wrap .accordion-text").not($(this).children().eq(1)).slideUp(300);
+        });
+    </script>
+</body>
+
+</html>

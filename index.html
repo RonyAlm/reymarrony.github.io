@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <!-- Glide js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css">
+
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="shortcut icon" href="images/LOGO-2-5.png" type="image/x-icon">
+    <title>Reymar</title>
+    <!-- CSS Floating WhatsApp -->
+    <link rel="stylesheet" href="https://rawcdn.githack.com/jerfeson/floating-whatsapp/0310b4cd88e9e55dc637d1466670da26b645ae49/floating-wpp.min.css">
+    <!-- JS Floating WhatsApp -->
+    <script type="text/javascript" src="https://rawcdn.githack.com/jerfeson/floating-whatsapp/0310b4cd88e9e55dc637d1466670da26b645ae49/floating-wpp.min.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <!-- Top Nav -->
+        <div class="top-nav promotion-box">
+            <div class="container d-flex">
+                <!-- <p>Haga su pedido en línea o llámenos: (+54) 9 3704832292</p> -->
+                <a href="#">
+                    <span>Oferta de verano, 50% de descuento! Comprar</span>
+                </a>
+                <div class="close-promobox">
+                    <i class="fal fal_r fa-times"></i>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            $(".close-promobox").click(function() {
+                $(".promotion-box").toggle();
+            });
+        </script>
+
+        <div class="navigation">
+            <div class="nav-center container d-flex">
+
+
+                <ul class="nav-list d-flex">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link activado">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="producto-ropa.html" class="nav-link">ROPA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="producto-calzado.html" class="nav-link">ZAPATOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="producto-vestido.html" class="nav-link">VESTIDO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="producto-accesorios.html" class="nav-link">ACCESORIOS</a>
+                    </li>
+                    <li class="icons d-flex">
+                        <a href="login.html" class="icon">
+                            <i class="bx bx-user"></i>
+                        </a>
+                        <div class="icon">
+                            <i class="bx bx-search"></i>
+                        </div>
+                        <div class="icon">
+                            <i class="bx bx-heart"></i>
+                            <span class="d-flex">0</span>
+                        </div>
+                        <a href="cart.html" class="icon card_r">
+                            <i class="far fa-shopping-bag"></i>
+                            <span class="d-flex">0</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <a href="#" class="logo">
+                    <img src="./images/REYMAR_LOGO.png" alt="" srcset="">
+                </a>
+
+                <div class="icons d-flex">
+                    <div class="icon">
+                        <i class="bx bx-search"></i>
+                    </div>
+                    <a href="login.html" class="icon">
+                        <i class="bx bx-user"></i>
+                    </a>
+                    <div class="icon">
+                        <i class="bx bx-heart"></i>
+                        <span class="d-flex">0</span>
+                    </div>
+                    <a href="cart.html" class="icon card_r">
+                        <i class="far fa-shopping-bag"></i>
+                        <span class="d-flex">0</span>
+                    </a>
+                </div>
+
+                <div class="hamburger">
+                    <i class="bx bx-menu-alt-left"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero">
+            <div class="glide" id="glide_1">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide">
+                            <div class="center">
+                                <div class="left">
+                                    <span class="">Nueva inspiración 2022 </span>
+                                    <h1 class="">NUEVA COLECCIÓN!</h1>
+                                    <p>Tendencias de la colección para mujeres </p>
+                                    <a href="todo-producto.html" class="hero-btn">COMPRAR</a>
+                                </div>
+                                <div class="right">
+                                    <img class="img1" src="./images/hero-1.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div class="center">
+                                <div class="left">
+                                    <span>Nuevo ingreso todas las semanas </span>
+                                    <h1>SPRING SUMMERS 2022 </h1>
+                                    <p>By REYMAR</p>
+                                    <a href="todo-producto.html" class="hero-btn">COMPRAR</a>
+                                </div>
+                                <div class="right">
+                                    <img class="img2" src="./images/hero-2.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Seccion de categoría -->
+    <section class="section category">
+        <div class="cat-center">
+            <div class="cat">
+                <img src="./images/VESTIDOS/ves-1.jpg" alt="" />
+                <div>
+                    <p>VESTIDOS</p>
+                </div>
+            </div>
+            <div class="cat">
+                <img src="./images/cat2.jpg" alt="" />
+                <div>
+                    <p>ACCESORIOS</p>
+                </div>
+            </div>
+            <div class="cat">
+                <img src="./images/zapato2.jpg" alt="" />
+                <div>
+                    <p>CALZADOS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nueva Coleccion -->
+    <section class="section new-arrival">
+        <div class="title">
+
+
+
+            <h1>LOS RECIÉN LLEGADOS</h1>
+            <p>Todo lo último que han salido</p>
+        </div>
+
+        <div class="product-center">
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="productDetails.html" class="product-thumb">
+                        <img src="./images/ropas/BLUSA-SOLE-2300.jpeg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>BLUSA SOLE</span>
+                    <a href="productDetails-1.html">Blusa de lino rayon</a>
+                    <h4>$2300</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/zapato.jpg" alt="" />
+                    </a>
+                    <span class="discount">50%</span>
+                </div>
+
+                <div class="product-info">
+                    <span>Rumy</span>
+                    <a href="">Rumy (cuero) Negro / Camel</a>
+                    <h4>$2000</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/ropas/CARDINAN-NEW-YORK-4000.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>CARDINAN NEW YORK</span>
+                    <a href="">Cardigan de media estación</a>
+                    <h4>$4000</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/VESTIDOS/akumalarena-1.jpeg" alt="" />
+                    </a>
+                    <span class="discount">50%</span>
+                </div>
+                <div class="product-info">
+                    <span>Vestido "Akumal" Arena</span>
+                    <a href="">Vestido de lino</a>
+                    <h4>$2500</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/ACCESORIOS/cinto-yute-1150-2.jpeg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>CINTO DE YUTE</span>
+                    <a href="">Cinto de yute color camel con hebilla de acrílico!</a>
+                    <h4>$1150</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/ropas/shorlazo.jpeg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>Short "lazo" blanco</span>
+                    <a href="">Short con lazo y elástico en cintura</a>
+                    <h4>$4500</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/zapato3.jpg" alt="" />
+                    </a>
+                    <span class="discount">21%</span>
+                </div>
+                <div class="product-info">
+                    <span>Jordana</span>
+                    <a href="">Jordana (cuero) Camel / Negro</a>
+                    <h4>$2000</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/ropas/pant-lino-1.jpeg" alt="" />
+                    </a>
+                </div>
+                <div class="product-info">
+                    <span>Pantalon de lino "Positano"</span>
+                    <a href="">Pantalon de lino sastrero</a>
+                    <h4>$5690</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div id="WABoton"></div>
+
+    <!-- Banner -->
+    <section class="section banner">
+        <div class="left">
+            <span class="trend">Tendencia</span>
+            <h1>Nueva colección 2022</h1>
+            <p>Oferta de llegada <span class="color">50% OFF</span> por tiempo limitado</p>
+            <a href="#" class="btn btn-1">Ver ahora</a>
+        </div>
+        <div class="right">
+            <img src="./images/banner.png" alt="">
+        </div>
+    </section>
+
+    <!-- Todo zapatos -->
+
+    <section class="section new-arrival">
+        <div class="title">
+            <h1>Presentando</h1>
+            <p>Todo lo último en Zapatos</p>
+        </div>
+
+        <div class="product-center">
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/zapato4.jpg" alt="" />
+                    </a>
+                    <span class="discount">50%</span>
+                </div>
+                <div class="product-info">
+                    <span> Zapato Rania</span>
+                    <a href="">Rania (cuero) Camel / Negro / Nude</a>
+                    <h4>$3000</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/zapato3.jpg" alt="" />
+                    </a>
+                    <span class="discount">21%</span>
+                </div>
+                <div class="product-info">
+                    <span>Jordana</span>
+                    <a href="">Jordana (cuero) Camel / Negro</a>
+                    <h4>$2000</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/zapato6.jpg" alt="" />
+                    </a>
+                    <span class="discount">20%</span>
+                </div>
+                <div class="product-info">
+                    <span>Muyil</span>
+                    <a href="">Muyil (cuero) Camel / Negro</a>
+                    <h4>$2300</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+            </div>
+            <div class="product-item">
+                <div class="overlay">
+                    <a href="" class="product-thumb">
+                        <img src="./images/zapato.jpg" alt="" />
+                    </a>
+                    <span class="discount">50%</span>
+                </div>
+
+                <div class="product-info">
+                    <span>Rumy</span>
+                    <a href="">Rumy (cuero) Negro / Camel</a>
+                    <h4>$2000</h4>
+                </div>
+                <ul class="icons">
+                    <li><i class="bx bx-heart"></i></li>
+                    <li><i class="bx bx-search"></i></li>
+                    <li><i class="bx bx-cart"></i></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="section contact ">
+        <div class="promociones_r">
+            <div>
+                <i class="fas fa-truck"></i>
+                <a>ENVIOS GRATIS EN COMPRAS MAS $6000</a>
+            </div>
+            <div>
+                <i class="far fa-credit-card"></i>
+                <a>6 CUOTAS SIN INTERES CON TODO PAGO</a>
+            </div>
+            <div>
+                <i class="far fa-handshake"></i>
+                <a>10% OFF TRANSF BANCARIA </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="row">
+            <a class="col d-flex" href="faq.html">AYUDA</a>
+            <a class="col d-flex" href="faq.html">TABLA DE TALLES</a>
+            <a class="col d-flex" href="faq.html">ENVÍOS</a>
+            <a class="col d-flex" href="faq.html">CAMBIOS Y DOVOLUCIONES</a>
+            <a class="col d-flex" href="contacto.html">CONTACTO</a>
+            <a class="col d-flex" href="faq.html">TÉRMINOS Y CONDICIONES</a>
+
+            <div class="redes-sociales">
+                <a href="https://www.instagram.com/_reymaar/" target="_blank">
+                    <i class="fab fa-instagram" style="margin-left: 13px; font-size: 2.5rem;"></i>
+                </a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-facebook-square" style="margin-left: 13px; font-size: 2.5rem;"></i>
+                </a>
+                <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp" style="margin-left: 13px; font-size: 2.5rem;"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+<script src="./js/slider.js"></script>
+<script src="./js/index.js"></script>
+
+<!-- Librería Floating WhatsApp  -->
+<script>
+    jQuery(document).ready(function($) {
+        $('#WABoton').floatingWhatsApp({
+            phone: '3704832692', // Número WhatsApp Business
+            popupMessage: 'Hola 👋 ¿Cómo podemos ayudarte?', // Mensaje pop up
+            message: "Hola Rony...", // Mensaje por defecto
+            showPopup: true, // Habilita el pop up
+            headerTitle: 'WhatsApp Chat', // Título del header
+            headerColor: '#8458B3', // Color del header
+            buttonImage: '<img src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/whatsapp.svg" />', // Icono WhatsApp
+            size: '60px', // Tamaño del icono
+            //backgroundColor: '#A0D2EB', // Color de fondo del botón
+            position: "right", // Posición del icono
+            avatar: 'https://www.w3schools.com/howto/img_avatar.png', // URL imagen avatar
+            avatarName: 'Rony Al', // Nombre del avatar
+            avatarRole: 'Atención al cliente', // Rol del avatar
+            //autoOpenTimeout: 3000,
+            zIndex: '99999',
+        });
+    });
+</script>
+
+</html>
